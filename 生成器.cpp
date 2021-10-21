@@ -20,7 +20,7 @@ int out(int in) {
 		fout << "cout<<\"千位是 " << d << " \"<< endl;" << endl;
 		fout << "cout<<\"万位是 " << e << " \"<< endl;" << endl;
 		fout << "cout<<\"十万位是 " << f << " \"<< endl;" << endl;
-		fout << "cour<<\"倒过来是 " << f << e << d << c << b << a << "\"endl;" << endl;
+		fout << "cout<<\"倒过来是 " << f << e << d << c << b << a << "\"endl;" << endl;
 		fout << "break;" << endl;
 		return 0;
 	}
@@ -31,7 +31,7 @@ int out(int in) {
 		fout << "cout<<\"百位是 " << c << " \"<< endl;" << endl;
 		fout << "cout<<\"千位是 " << d << " \"<< endl;" << endl;
 		fout << "cout<<\"万位是 " << e << " \"<< endl;" << endl;
-		fout << "cour<<\"倒过来是 " << e << d << c << b << a << "\"endl;" << endl;
+		fout << "cout<<\"倒过来是 " << e << d << c << b << a << "\"endl;" << endl;
 		fout << "break;" << endl;
 		return 0;
 	}
@@ -41,7 +41,7 @@ int out(int in) {
 		fout << "cout<<\"十位是 " << b << " \"<< endl;" << endl;
 		fout << "cout<<\"百位是 " << c << " \"<< endl;" << endl;
 		fout << "cout<<\"千位是 " << d << " \"<< endl;" << endl;
-		fout << "cour<<\"倒过来是 " << d << c << b << a << "\"endl;" << endl;
+		fout << "cout<<\"倒过来是 " << d << c << b << a << "\"endl;" << endl;
 		fout << "break;" << endl;
 		return 0;
 	}
@@ -50,7 +50,7 @@ int out(int in) {
 		fout << "cout<<\"个位是 " << a << " \"<< endl;" << endl;
 		fout << "cout<<\"十位是 " << b << " \"<< endl;" << endl;
 		fout << "cout<<\"百位是 " << c << " \"<< endl;" << endl;
-		fout << "cour<<\"倒过来是 " << c << b << a << "\"endl;" << endl;
+		fout << "cout<<\"倒过来是 " << c << b << a << "\"endl;" << endl;
 		fout << "break;" << endl;
 		return 0;
 	}
@@ -58,7 +58,7 @@ int out(int in) {
 		fout << "cout<<\"" << in << " 是两位数\"<<endl;" << endl;
 		fout << "cout<<\"个位是 " << a << " \"<< endl;" << endl;
 		fout << "cout<<\"十位是 " << b << " \"<< endl;" << endl;
-		fout << "cour<<\"倒过来是 " << b << a << "\"endl;" << endl;
+		fout << "cout<<\"倒过来是 " << b << a << "\"endl;" << endl;
 		fout << "break;" << endl;
 		return 0;
 	}
