@@ -13,59 +13,59 @@ int out(int in) {
 	ofstream fout("main.cpp", ofstream::app);
 	fout << "	case " << in << ":" << endl;
 	if (f != 0) {
-		fout << "	cout<<\"" << in << " 是六位数\"<<endl;" << endl;
-		fout << "	cout<<\"个位是 " << a << " \"<< endl;" << endl;
-		fout << "	cout<<\"十位是 " << b << " \"<< endl;" << endl;
-		fout << "	cout<<\"百位是 " << c << " \"<< endl;" << endl;
-		fout << "	cout<<\"千位是 " << d << " \"<< endl;" << endl;
-		fout << "	cout<<\"万位是 " << e << " \"<< endl;" << endl;
-		fout << "	cout<<\"十万位是 " << f << " \"<< endl;" << endl;
-		fout << "	cout<<\"倒过来是 " << f << e << d << c << b << a << "\"<< endl;" << endl;
-		fout << "	break;" << endl;
+		fout << "		cout<<\"" << in << " 是六位数\"<<endl;" << endl;
+		fout << "		cout<<\"个位是 " << a << " \"<< endl;" << endl;
+		fout << "		cout<<\"十位是 " << b << " \"<< endl;" << endl;
+		fout << "		cout<<\"百位是 " << c << " \"<< endl;" << endl;
+		fout << "		cout<<\"千位是 " << d << " \"<< endl;" << endl;
+		fout << "		cout<<\"万位是 " << e << " \"<< endl;" << endl;
+		fout << "		cout<<\"十万位是 " << f << " \"<< endl;" << endl;
+		fout << "		cout<<\"倒过来是 " << f << e << d << c << b << a << "\"<< endl;" << endl;
+		fout << "		break;" << endl;
 		return 0;
 	}
 	else if (e != 0) {
-		fout << "	cout<<\"" << in << " 是五位数\"<<endl;" << endl;
-		fout << "	cout<<\"个位是 " << a << " \"<< endl;" << endl;
-		fout << "	cout<<\"十位是 " << b << " \"<< endl;" << endl;
-		fout << "	cout<<\"百位是 " << c << " \"<< endl;" << endl;
-		fout << "	cout<<\"千位是 " << d << " \"<< endl;" << endl;
-		fout << "	cout<<\"万位是 " << e << " \"<< endl;" << endl;
-		fout << "	cout<<\"倒过来是 " << e << d << c << b << a << "\"<< endl;" << endl;
-		fout << "	break;" << endl;
+		fout << "		cout<<\"" << in << " 是五位数\"<<endl;" << endl;
+		fout << "		cout<<\"个位是 " << a << " \"<< endl;" << endl;
+		fout << "		cout<<\"十位是 " << b << " \"<< endl;" << endl;
+		fout << "		cout<<\"百位是 " << c << " \"<< endl;" << endl;
+		fout << "		cout<<\"千位是 " << d << " \"<< endl;" << endl;
+		fout << "		cout<<\"万位是 " << e << " \"<< endl;" << endl;
+		fout << "		cout<<\"倒过来是 " << e << d << c << b << a << "\"<< endl;" << endl;
+		fout << "		break;" << endl;
 		return 0;
 	}
 	else if (d != 0) {
-		fout << "	cout<<\"" << in << " 是四位数\"<<endl;" << endl;
-		fout << "	cout<<\"个位是 " << a << " \"<< endl;" << endl;
-		fout << "	cout<<\"十位是 " << b << " \"<< endl;" << endl;
-		fout << "	cout<<\"百位是 " << c << " \"<< endl;" << endl;
-		fout << "	cout<<\"千位是 " << d << " \"<< endl;" << endl;
-		fout << "	cout<<\"倒过来是 " << d << c << b << a << "\"<< endl;" << endl;
-		fout << "	break;" << endl;
+		fout << "		cout<<\"" << in << " 是四位数\"<<endl;" << endl;
+		fout << "		cout<<\"个位是 " << a << " \"<< endl;" << endl;
+		fout << "		cout<<\"十位是 " << b << " \"<< endl;" << endl;
+		fout << "		cout<<\"百位是 " << c << " \"<< endl;" << endl;
+		fout << "		cout<<\"千位是 " << d << " \"<< endl;" << endl;
+		fout << "		cout<<\"倒过来是 " << d << c << b << a << "\"<< endl;" << endl;
+		fout << "		break;" << endl;
 		return 0;
 	}
 	else if (c != 0) {
-		fout << "cout<<\"" << in << " 是三位数\"<<endl;" << endl;
-		fout << "cout<<\"个位是 " << a << " \"<< endl;" << endl;
-		fout << "cout<<\"十位是 " << b << " \"<< endl;" << endl;
-		fout << "cout<<\"百位是 " << c << " \"<< endl;" << endl;
-		fout << "cout<<\"倒过来是 " << c << b << a << "\"<< endl;" << endl;
-		fout << "break;" << endl;
+		fout << "		cout<<\"" << in << " 是三位数\"<<endl;" << endl;
+		fout << "		cout<<\"个位是 " << a << " \"<< endl;" << endl;
+		fout << "		cout<<\"十位是 " << b << " \"<< endl;" << endl;
+		fout << "		cout<<\"百位是 " << c << " \"<< endl;" << endl;
+		fout << "		cout<<\"倒过来是 " << c << b << a << "\"<< endl;" << endl;
+		fout << "		break;" << endl;
 		return 0;
 	}
 	else if (b != 0) {
-		fout << "	cout<<\"" << in << " 是两位数\"<<endl;" << endl;
-		fout << "	cout<<\"个位是 " << a << " \"<< endl;" << endl;
-		fout << "	cout<<\"十位是 " << b << " \"<< endl;" << endl;
-		fout << "	cout<<\"倒过来是 " << b << a << "\"<< endl;" << endl;
-		fout << "	break;" << endl;
+		fout << "		cout<<\"" << in << " 是两位数\"<<endl;" << endl;
+		fout << "		cout<<\"个位是 " << a << " \"<< endl;" << endl;
+		fout << "		cout<<\"十位是 " << b << " \"<< endl;" << endl;
+		fout << "		cout<<\"倒过来是 " << b << a << "\"<< endl;" << endl;
+		fout << "		break;" << endl;
 		return 0;
 	}
 	else{
-		fout << "	cout<<\"" << in << " 是一位数\"<<endl;" << endl;
-		fout << "	cout<<\"个位是 " << a << " \"<< endl;" << endl;
-		fout << "	break;" << endl;
+		fout << "		cout<<\"" << in << " 是一位数\"<<endl;" << endl;
+		fout << "		cout<<\"个位是 " << a << " \"<< endl;" << endl;
+		fout << "		break;" << endl;
 		return 0;
 	} 
 }
