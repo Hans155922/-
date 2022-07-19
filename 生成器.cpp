@@ -13,58 +13,58 @@ int out(int in) {
 	ofstream fout("main.cpp", ofstream::app);
 	fout << "case " << in << ":" << endl;
 	if (f != 0) {
-		fout << "cout<<\"" << in << " ÊÇÁùÎ»Êı\"<<endl;" << endl;
-		fout << "cout<<\"¸öÎ»ÊÇ " << a << " \"<< endl;" << endl;
-		fout << "cout<<\"Ê®Î»ÊÇ " << b << " \"<< endl;" << endl;
-		fout << "cout<<\"°ÙÎ»ÊÇ " << c << " \"<< endl;" << endl;
-		fout << "cout<<\"Ç§Î»ÊÇ " << d << " \"<< endl;" << endl;
-		fout << "cout<<\"ÍòÎ»ÊÇ " << e << " \"<< endl;" << endl;
-		fout << "cout<<\"Ê®ÍòÎ»ÊÇ " << f << " \"<< endl;" << endl;
-		fout << "cout<<\"µ¹¹ıÀ´ÊÇ " << f << e << d << c << b << a << "\"endl;" << endl;
+		fout << "cout<<\"" << in << " æ˜¯å…­ä½æ•°\"<<endl;" << endl;
+		fout << "cout<<\"ä¸ªä½æ˜¯ " << a << " \"<< endl;" << endl;
+		fout << "cout<<\"åä½æ˜¯ " << b << " \"<< endl;" << endl;
+		fout << "cout<<\"ç™¾ä½æ˜¯ " << c << " \"<< endl;" << endl;
+		fout << "cout<<\"åƒä½æ˜¯ " << d << " \"<< endl;" << endl;
+		fout << "cout<<\"ä¸‡ä½æ˜¯ " << e << " \"<< endl;" << endl;
+		fout << "cout<<\"åä¸‡ä½æ˜¯ " << f << " \"<< endl;" << endl;
+		fout << "cout<<\"å€’è¿‡æ¥æ˜¯ " << f << e << d << c << b << a << "\"<< endl;" << endl;
 		fout << "break;" << endl;
 		return 0;
 	}
 	else if (e != 0) {
-		fout << "cout<<\"" << in << " ÊÇÎåÎ»Êı\"<<endl;" << endl;
-		fout << "cout<<\"¸öÎ»ÊÇ " << a << " \"<< endl;" << endl;
-		fout << "cout<<\"Ê®Î»ÊÇ " << b << " \"<< endl;" << endl;
-		fout << "cout<<\"°ÙÎ»ÊÇ " << c << " \"<< endl;" << endl;
-		fout << "cout<<\"Ç§Î»ÊÇ " << d << " \"<< endl;" << endl;
-		fout << "cout<<\"ÍòÎ»ÊÇ " << e << " \"<< endl;" << endl;
-		fout << "cout<<\"µ¹¹ıÀ´ÊÇ " << e << d << c << b << a << "\"endl;" << endl;
+		fout << "cout<<\"" << in << " æ˜¯äº”ä½æ•°\"<<endl;" << endl;
+		fout << "cout<<\"ä¸ªä½æ˜¯ " << a << " \"<< endl;" << endl;
+		fout << "cout<<\"åä½æ˜¯ " << b << " \"<< endl;" << endl;
+		fout << "cout<<\"ç™¾ä½æ˜¯ " << c << " \"<< endl;" << endl;
+		fout << "cout<<\"åƒä½æ˜¯ " << d << " \"<< endl;" << endl;
+		fout << "cout<<\"ä¸‡ä½æ˜¯ " << e << " \"<< endl;" << endl;
+		fout << "cout<<\"å€’è¿‡æ¥æ˜¯ " << e << d << c << b << a << "\"<< endl;" << endl;
 		fout << "break;" << endl;
 		return 0;
 	}
 	else if (d != 0) {
-		fout << "cout<<\"" << in << " ÊÇËÄÎ»Êı\"<<endl;" << endl;
-		fout << "cout<<\"¸öÎ»ÊÇ " << a << " \"<< endl;" << endl;
-		fout << "cout<<\"Ê®Î»ÊÇ " << b << " \"<< endl;" << endl;
-		fout << "cout<<\"°ÙÎ»ÊÇ " << c << " \"<< endl;" << endl;
-		fout << "cout<<\"Ç§Î»ÊÇ " << d << " \"<< endl;" << endl;
-		fout << "cout<<\"µ¹¹ıÀ´ÊÇ " << d << c << b << a << "\"endl;" << endl;
+		fout << "cout<<\"" << in << " æ˜¯å››ä½æ•°\"<<endl;" << endl;
+		fout << "cout<<\"ä¸ªä½æ˜¯ " << a << " \"<< endl;" << endl;
+		fout << "cout<<\"åä½æ˜¯ " << b << " \"<< endl;" << endl;
+		fout << "cout<<\"ç™¾ä½æ˜¯ " << c << " \"<< endl;" << endl;
+		fout << "cout<<\"åƒä½æ˜¯ " << d << " \"<< endl;" << endl;
+		fout << "cout<<\"å€’è¿‡æ¥æ˜¯ " << d << c << b << a << "\"<< endl;" << endl;
 		fout << "break;" << endl;
 		return 0;
 	}
 	else if (c != 0) {
-		fout << "cout<<\"" << in << " ÊÇÈıÎ»Êı\"<<endl;" << endl;
-		fout << "cout<<\"¸öÎ»ÊÇ " << a << " \"<< endl;" << endl;
-		fout << "cout<<\"Ê®Î»ÊÇ " << b << " \"<< endl;" << endl;
-		fout << "cout<<\"°ÙÎ»ÊÇ " << c << " \"<< endl;" << endl;
-		fout << "cout<<\"µ¹¹ıÀ´ÊÇ " << c << b << a << "\"endl;" << endl;
+		fout << "cout<<\"" << in << " æ˜¯ä¸‰ä½æ•°\"<<endl;" << endl;
+		fout << "cout<<\"ä¸ªä½æ˜¯ " << a << " \"<< endl;" << endl;
+		fout << "cout<<\"åä½æ˜¯ " << b << " \"<< endl;" << endl;
+		fout << "cout<<\"ç™¾ä½æ˜¯ " << c << " \"<< endl;" << endl;
+		fout << "cout<<\"å€’è¿‡æ¥æ˜¯ " << c << b << a << "\"<< endl;" << endl;
 		fout << "break;" << endl;
 		return 0;
 	}
 	else if (b != 0) {
-		fout << "cout<<\"" << in << " ÊÇÁ½Î»Êı\"<<endl;" << endl;
-		fout << "cout<<\"¸öÎ»ÊÇ " << a << " \"<< endl;" << endl;
-		fout << "cout<<\"Ê®Î»ÊÇ " << b << " \"<< endl;" << endl;
-		fout << "cout<<\"µ¹¹ıÀ´ÊÇ " << b << a << "\"endl;" << endl;
+		fout << "cout<<\"" << in << " æ˜¯ä¸¤ä½æ•°\"<<endl;" << endl;
+		fout << "cout<<\"ä¸ªä½æ˜¯ " << a << " \"<< endl;" << endl;
+		fout << "cout<<\"åä½æ˜¯ " << b << " \"<< endl;" << endl;
+		fout << "cout<<\"å€’è¿‡æ¥æ˜¯ " << b << a << "\"<< endl;" << endl;
 		fout << "break;" << endl;
 		return 0;
 	}
 	else{
-		fout << "cout<<\"" << in << " ÊÇÒ»Î»Êı\"<<endl;" << endl;
-		fout << "cout<<\"¸öÎ»ÊÇ " << a << " \"<< endl;" << endl;
+		fout << "cout<<\"" << in << " æ˜¯ä¸€ä½æ•°\"<<endl;" << endl;
+		fout << "cout<<\"ä¸ªä½æ˜¯ " << a << " \"<< endl;" << endl;
 		fout << "break;" << endl;
 		return 0;
 	} 
@@ -75,7 +75,7 @@ int main() {
 	fout << "#include<iostream>" << endl;
 	fout << "using namespace std;" << endl;
 	fout << "int main(){" << endl;
-	fout << "cout << \"Çë¸ø³öÒ»¸ö²»¶àÓÚÁùÎ»ÊıµÄÕıÕûÊı£º\";" << endl;
+	fout << "cout << \"è¯·ç»™å‡ºä¸€ä¸ªä¸å¤šäºå…­ä½æ•°çš„æ­£æ•´æ•°ï¼š\";" << endl;
 	fout << "int x;" << endl;
 	fout << "cin >> x; "<<endl;
 	fout << "switch(x){" << endl;
