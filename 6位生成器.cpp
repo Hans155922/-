@@ -91,7 +91,6 @@ int main()
 	for (long long int a = 0; a < 1000000; a++)
 	{
 		out(a);
-		cout << "正常处理" << a << endl;
 	}
 	fout.open("main.cpp", ofstream::app);
 	fout << "	}" << endl
